@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import AllergenIcons from '../AllergenIcons/allergenIcons'
-import { formatCurrency } from '../../utils/formatcurrency'
-import { useCart } from '../../context/cartcontext'
+import AllergenIcons from '../AllergenIcons/AllergenIcons'
+import { formatCurrency } from '../../utils/formatCurrency'
+import { useCart } from '../../context/CartContext'
 import styles from './MenuItemCard.module.css'
 
 export default function MenuItemCard({ item, index = 0 }) {

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Button from '../../components/Button/Button'
-import SectionTitle from '../../components/SectionTitle/sectiontitle'
+import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import styles from './Home.module.css'
 
 const FEATURES = [

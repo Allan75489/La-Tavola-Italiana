@@ -1,14 +1,14 @@
 import { Route, Routes } from 'react-router-dom'
 import MainLayout from '../layouts/MainLayout'
-import Home from '../pages/Home/home'
+import Home from '../pages/Home/Home'
 import About from '../pages/About/About'
-import Menu from '../pages/Menu/menu'
-import Reservations from '../pages/Reservations/reservations'
-import Delivery from '../pages/Delivery/delivery'
-import Gallery from '../pages/Gallery/gallery'
+import Menu from '../pages/Menu/Menu'
+import Reservations from '../pages/Reservations/Reservations'
+import Delivery from '../pages/Delivery/Delivery'
+import Gallery from '../pages/Gallery/Gallery'
 import Contact from '../pages/Contact/Contact'
-import Login from '../pages/Login/login'
-import NotFound from '../pages/NotFound/notfound'
+import Login from '../pages/Login/Login'
+import NotFound from '../pages/NotFound/NotFound'
 
 export default function AppRoutes() {
   return (

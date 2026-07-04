@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import SectionTitle from '../../components/SectionTitle/sectiontitle'
+import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import styles from './About.module.css'
 
 const TIMELINE = [

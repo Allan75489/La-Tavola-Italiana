@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { useScrollPosition } from '../../hooks/usescrollposition'
+import { useScrollPosition } from '../../hooks/useScrollPosition'
 import { useCart } from '../../context/CartContext'
 import styles from './Navbar.module.css'
 

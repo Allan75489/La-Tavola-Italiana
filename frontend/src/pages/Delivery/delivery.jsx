@@ -3,7 +3,7 @@ import MenuItemCard from '../../components/MenuItemCard/MenuItemCard'
 import Button from '../../components/Button/Button'
 import { useCart } from '../../context/CartContext'
 import { getDrinks, getMenuItems, createOrder } from '../../services/menuService'
-import { formatCurrency } from '../../utils/formatcurrency'
+import { formatCurrency } from '../../utils/formatCurrency'
 import styles from './Delivery.module.css'
 
 export default function Delivery() {
