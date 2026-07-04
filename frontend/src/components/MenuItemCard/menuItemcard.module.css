@@ -1,0 +1,102 @@
+.card {
+  background: var(--color-white);
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.4s var(--ease-signature), box-shadow 0.4s var(--ease-signature);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-elevated);
+}
+
+.imageWrap {
+  position: relative;
+  height: 190px;
+  overflow: hidden;
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-signature);
+}
+
+.card:hover .imageWrap img {
+  transform: scale(1.08);
+}
+
+.category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(31, 77, 54, 0.85);
+  color: var(--color-white);
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.body {
+  padding: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.headRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 1.05rem;
+  color: var(--color-verde-escuro);
+}
+
+.price {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  color: var(--color-vinho);
+  white-space: nowrap;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+  flex: 1;
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+}
+
+.addBtn {
+  background: var(--color-verde-escuro);
+  color: var(--color-white);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius-sm);
+  transition: background 0.3s ease;
+}
+
+.addBtn:hover {
+  background: var(--color-vinho);
+}

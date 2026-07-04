@@ -1,0 +1,184 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-white);
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.heroBg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 14, 10, 0.55) 0%, rgba(20, 14, 10, 0.35) 45%, rgba(20, 14, 10, 0.75) 100%);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  padding: 0 var(--space-md);
+}
+
+.heroEyebrow {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  font-size: 0.75rem;
+  color: var(--color-dourado-light);
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  color: var(--color-white);
+  margin: var(--space-sm) 0;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+.heroSubtitle {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: rgba(255, 253, 249, 0.9);
+  margin-bottom: var(--space-md);
+}
+
+.heroActions {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.scrollHint {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: var(--color-white);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+/* ===== Why choose us ===== */
+.why {
+  padding: var(--space-xl) 0;
+  background: var(--color-creme);
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+.featureCard {
+  background: var(--color-white);
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-sm);
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.4s var(--ease-signature), box-shadow 0.4s var(--ease-signature);
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-elevated);
+}
+
+.featureIcon {
+  font-size: 2.2rem;
+  margin-bottom: var(--space-sm);
+}
+
+.featureCard h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.featureCard p {
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+}
+
+/* ===== Signature dish teaser ===== */
+.signature {
+  padding: var(--space-xl) 0;
+  background: var(--color-verde-escuro);
+  color: var(--color-creme);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.signature .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.signatureImg {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-elevated);
+}
+
+.signatureImg img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.signatureText .eyebrow {
+  color: var(--color-dourado);
+}
+
+.signatureText h2 {
+  color: var(--color-white);
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin: var(--space-xs) 0 var(--space-sm);
+}
+
+.signatureText p {
+  font-family: var(--font-accent);
+  font-size: 1.15rem;
+  color: rgba(246, 241, 231, 0.85);
+  margin-bottom: var(--space-md);
+}
+
+@media (max-width: 960px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .signature .container {
+    grid-template-columns: 1fr;
+  }
+  .signatureImg img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}

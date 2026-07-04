@@ -1,0 +1,11 @@
+[
+  { "id": "g01", "caption": "Massas artesanais feitas na casa", "image": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?q=80&w=1000" },
+  { "id": "g02", "caption": "Adega com rótulos selecionados", "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1000" },
+  { "id": "g03", "caption": "Forno a lenha, coração da cozinha", "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1000" },
+  { "id": "g04", "caption": "Mesa posta para um jantar em família", "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1000" },
+  { "id": "g05", "caption": "Salão principal ao entardecer", "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1000" },
+  { "id": "g06", "caption": "Bistecca alla Fiorentina na brasa", "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000" },
+  { "id": "g07", "caption": "Tiramisù preparado na hora", "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=1000" },
+  { "id": "g08", "caption": "Varanda externa entre trepadeiras", "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?q=80&w=1000" },
+  { "id": "g09", "caption": "Seleção de queijos e embutidos", "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=1000" }
+]

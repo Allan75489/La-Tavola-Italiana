@@ -1,0 +1,44 @@
+:root {
+  /* ===== Paleta — Trattoria della Famiglia ===== */
+  --color-verde-escuro: #1f4d36;
+  --color-verde-escuro-light: #2c6b4a;
+  --color-vinho: #8b1e24;
+  --color-vinho-light: #a52a31;
+  --color-creme: #f6f1e7;
+  --color-bege: #e9ddc8;
+  --color-marrom: #5b3a29;
+  --color-dourado: #b9924c;
+  --color-dourado-light: #d4b878;
+
+  --color-text: #2a2521;
+  --color-text-soft: #5c5148;
+  --color-white: #fffdf9;
+  --color-overlay: rgba(31, 20, 12, 0.55);
+
+  /* ===== Tipografia ===== */
+  --font-display: 'Cinzel', serif;           /* títulos, marca, peso cerimonial */
+  --font-accent: 'Cormorant Garamond', serif; /* citações, subtítulos elegantes */
+  --font-body: 'Lato', sans-serif;            /* corpo de texto */
+  --font-ui: 'Open Sans', sans-serif;         /* rótulos, formulários, dados */
+
+  /* ===== Espaçamento ===== */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 7rem;
+
+  /* ===== Bordas & Sombras ===== */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --shadow-soft: 0 10px 30px rgba(31, 20, 12, 0.08);
+  --shadow-elevated: 0 20px 45px rgba(31, 20, 12, 0.16);
+  --border-hairline: 1px solid rgba(91, 58, 41, 0.18);
+
+  /* ===== Layout ===== */
+  --max-width: 1280px;
+  --nav-height: 92px;
+  --nav-height-scrolled: 68px;
+
+  --ease-signature: cubic-bezier(0.22, 1, 0.36, 1);
+}

@@ -1,0 +1,65 @@
+.wrap {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(31,77,54,0.92), rgba(31,77,54,0.92)),
+    url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1600') center/cover;
+  padding: var(--space-lg) var(--space-md);
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--color-creme);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-elevated);
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 1.8rem;
+}
+
+.card p {
+  font-family: var(--font-accent);
+  font-style: italic;
+  color: var(--color-text-soft);
+  margin: 0.4rem 0 var(--space-md);
+}
+
+.field {
+  text-align: left;
+  margin-bottom: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.field label {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-marrom);
+}
+
+.field input {
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(91, 58, 41, 0.3);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+}
+
+.error {
+  color: var(--color-vinho);
+  font-size: 0.78rem;
+  text-align: left;
+}
+
+.note {
+  margin-top: var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-text-soft);
+}
